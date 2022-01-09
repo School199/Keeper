@@ -1,11 +1,10 @@
 import React from "react";
 
-const date = new Date().getFullYear();
-
 function Footer() {
+  const year = new Date().getFullYear();
   return (
     <footer>
-      <p>Copyright © {date}</p>
+      <p>Copyright ⓒ {year}</p>
     </footer>
   );
 }
